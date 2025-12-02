@@ -436,7 +436,8 @@ const App = () => {
           <h1 className="text-xl font-bold">AIos Orchestration Demo (Live LLM)</h1>
           <p className="text-sm opacity-75 mt-1 truncate">
             {isAuthReady 
-              ? `Your Full User ID: ${userId}` 
+              // ? `Your Full User ID: ${userId}` 
+              ? `Your Full User ID: ${"test_user001"}` 
               : 'Authenticating...'
             }
           </p>
